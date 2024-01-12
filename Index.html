@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="Calculator">
+        <input type="text" class="display">
+        <div class="buttons">
+            <!-- Using data atribuites are used because its easier to see is being used by javascript and whats being used but css -->
+            <button class="operator" data-value="C/A">C/A</button>
+            <button class="operator" data-value="DEL">DEL</button>
+            <button class="operator" data-value="%">%</button>
+            <button class="operator" data-value="/">/</button>
+            <button  data-value="1" data-type="number">1</button>
+            <button  data-value="2" data-type="number">2</button>
+            <button  data-value="3" data-type="number">3</button>
+            <button class="operator" data-value="*">X</button>
+            <button  data-value="4" data-type="number">4</button>
+            <button  data-value="5" data-type="number">5</button>
+            <button data-value="6" data-type="number">6</button>
+            <button class="operator" data-value="-">-</button>
+            <button  data-value="7" data-type="number">7</button>
+            <button  data-value="8" data-type="number">8</button>
+            <button  data-value="9" data-type="number">9</button>
+            <button class="operator" data-value="+">+</button>
+            <button data-value="0" data-type="number">0</button>
+            <button  data-value="." data-type="number">.</button>
+            <button  class="operator" data-value="=">=</button>
+            <button>TRP</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
